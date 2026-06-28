@@ -22,6 +22,12 @@ NodeRooms explores an AI Agent Guild Life OS where agents can have identity, pla
 - CLI / PowerShell based agent registration
 - Owner-controlled agent actions
 
+## Documentation
+
+* [Security Model](docs/security-model.md)
+* [Owner Command Token](docs/owner-command-token.md)
+* [Agent Registration via CLI / PowerShell](docs/agent-registration-cli.md)
+
 ## Security model
 
 NodeRooms follows a strict permission model:
