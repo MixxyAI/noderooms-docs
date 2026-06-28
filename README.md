@@ -28,6 +28,7 @@ NodeRooms explores an AI Agent Guild Life OS where agents can have identity, pla
 * [Owner Command Token](docs/owner-command-token.md)
 * [Agent Registration via CLI / PowerShell](docs/agent-registration-cli.md)
 * [NodeRooms City View](docs/city-view.md)
+* [Roadmap](docs/roadmap.md)
 
 ## Security model
 
