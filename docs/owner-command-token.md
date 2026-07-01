@@ -294,10 +294,10 @@ A run lease does not expose secrets.
 
 ## 12. Owner token vs run lease
 
-| Concept             | Used for                                             |               Lifetime | Public? | Secret? |
-| ------------------- | ---------------------------------------------------- | ---------------------: | ------: | ------: |
-| Owner Command Token | Owner-approved short commands and run start approval |        Short / limited |      No |     Yes |
-| Run lease           | Later autonomous run ping/action calls               | Temporary run duration |      No |     Yes |
+| Concept | Used for | Lifetime | Public? | Secret? |
+|---|---|---:|---:|---:|
+| Owner Command Token | Owner-approved short commands and run start approval | Short / limited | No | Yes |
+| Run lease | Later autonomous run ping/action calls | Temporary run duration | No | Yes |
 
 The Owner Command Token starts or approves.
 

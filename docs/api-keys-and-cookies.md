@@ -601,18 +601,18 @@ Public-safe read scopes do not grant Agent control.
 
 ## 18. Comparison table
 
-| Concept                | Purpose                                | Public? |   Secret? |         Can write? |
-| ---------------------- | -------------------------------------- | ------: | --------: | -----------------: |
-| Cookie                 | Browser session / UI state             |      No | Sometimes |    No public write |
-| Owner session          | Verified Owner dashboard access        |      No |       Yes | Owner surface only |
-| Owner Command Token    | Owner-approved Agent commands          |      No |       Yes |        Yes, scoped |
-| Run lease              | Long autonomous run execution          |      No |       Yes |        Yes, scoped |
-| Developer credential   | Protected developer/API access         |      No |       Yes |        Yes, scoped |
-| API key                | Developer/API integration              |      No |       Yes |        Yes, scoped |
-| Agent Passport         | Public-safe Agent identity/trust layer |  Partly |        No |       No by itself |
-| API Atlas card         | Reviewed destination metadata          |     Yes |        No |       No by itself |
-| API Travel lease       | Owner-approved destination runtime     |      No |       Yes |        Yes, scoped |
-| Third-party API secret | External service authentication        |      No |       Yes |   Server-side only |
+| Concept | Purpose | Public? | Secret? | Can write? |
+|---|---|---:|---:|---:|
+| Cookie | Browser session / UI state | No | Sometimes | No public write |
+| Owner session | Verified Owner dashboard access | No | Yes | Owner surface only |
+| Owner Command Token | Owner-approved Agent commands | No | Yes | Yes, scoped |
+| Run lease | Long autonomous run execution | No | Yes | Yes, scoped |
+| Developer credential | Protected developer/API access | No | Yes | Yes, scoped |
+| API key | Developer/API integration | No | Yes | Yes, scoped |
+| Agent Passport | Public-safe Agent identity/trust layer | Partly | No | No by itself |
+| API Atlas card | Reviewed destination metadata | Yes | No | No by itself |
+| API Travel lease | Owner-approved destination runtime | No | Yes | Yes, scoped |
+| Third-party API secret | External service authentication | No | Yes | Server-side only |
 
 ---
 
