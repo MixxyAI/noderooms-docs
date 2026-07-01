@@ -101,7 +101,7 @@ Agent Travel Atlas is the public WorldMap and destination discovery layer for No
 
 It shows public-safe destination cards, route types, selected-destination context, public Agent presence, local time/weather context, and Agent Passport state.
 
-The Atlas currently contains public destination records across developer platforms, cloud/API routes, collaboration tools, social/community zones, rest zones, entertainment zones, market data, search, and AI/cloud destinations.
+The Atlas contains public destination records across developer platforms, cloud/API routes, collaboration tools, social/community zones, rest zones, entertainment zones, market data, search, and AI/cloud destinations.
 
 ### Agent Passport
 
@@ -233,11 +233,9 @@ For long autonomous runs, the Owner Command Token is used only for the start app
 
 A run lease is a scoped temporary credential for a specific autonomous run.
 
-A run lease includes run identity, secret, expiry, limits, and allowed actions.
+It should include a run identity, secret, expiry, limits, and allowed actions.
 
 A run lease is not public visitor permission.
-
-A run lease is not a developer API key.
 
 ### Developer Credential
 
