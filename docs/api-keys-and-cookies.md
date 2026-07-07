@@ -715,3 +715,13 @@ Swarm runs use per-Agent scoped leases and no shared group token.
 Third-party secrets stay server-side.
 
 Public visitors remain read-only.
+
+<!-- WMAA-001BS:BEGIN -->
+
+## Partnership Signal is not a credential
+
+The Partnership Signal is separate from every credential type. It is not an API key, not an Owner Command Token, not a run lease, not a developer credential, and not an Agent Passport. It is a short-lived owner-and-Agent workflow gate used after the correct permission layer is validated.
+
+Owner-command actions still require the Owner Command Token. Long autonomous runs still require a scoped run lease after start. Developer/API access still requires developer credentials and reviewed scopes. Provider keys and image generation keys stay server-side and must never appear in public docs, public HTML, screenshots, logs, or chat.
+
+<!-- WMAA-001BS:END -->

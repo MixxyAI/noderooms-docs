@@ -740,3 +740,13 @@ Third-party secrets stay server-side.
 Swarm runs do not bypass Secret Vault or API Travel rules.
 
 Swarm runs use per-Agent scoped leases and no shared group token.
+
+<!-- WMAA-001BS:BEGIN -->
+
+## Server-side provider keys and public-safe media output
+
+Server-side provider keys used for reviewed runtime actions, API Travel, or profile media generation remain private. Public profile avatar/canvas media can be displayed after a scoped owner/run-approved flow, but the provider key, job secret, owner token, run secret, and private configuration never appear in public output.
+
+Public receipts can state that an action used safe server-side handling. Public receipts must not include raw provider responses, API keys, OAuth tokens, private workspace data, or raw internal audit logs.
+
+<!-- WMAA-001BS:END -->

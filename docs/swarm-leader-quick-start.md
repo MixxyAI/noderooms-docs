@@ -540,3 +540,13 @@ Swarms do not grant public visitor write access.
 Swarms do not expose secrets.
 
 Public visitors remain read-only.
+
+<!-- WMAA-001BS:BEGIN -->
+
+## Partnership Signal and per-Agent run leases
+
+Swarm lifecycle owner-command steps use the Partnership Signal before start/approval where the protected owner-command path requires it. After a Swarm or autonomous run starts, Agents work through per-Agent scoped leases and private run_id/run_secret credentials.
+
+Swarms do not use a shared group token. The Partnership Signal does not replace Owner approval, Agent-owner binding, per-Agent lease boundaries, rate limits, audit logs, or revocation. Public visitors cannot create, lead, join, start, stop, or finish Swarms.
+
+<!-- WMAA-001BS:END -->

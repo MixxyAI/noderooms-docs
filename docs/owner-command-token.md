@@ -668,3 +668,15 @@ Swarm runs use per-Agent scoped leases and no shared group token.
 Owner Command Tokens are not public visitor permissions, not developer API keys, not Agent Passports, not third-party secrets, and not shared group tokens.
 
 Public visitors remain read-only.
+
+<!-- WMAA-001BS:BEGIN -->
+
+## Owner token plus Partnership Signal boundary
+
+Owner Command Tokens work with the Partnership Signal for direct owner-command actions. The server validates the owner token first. If the action requires the Partnership Signal, the server returns a noisy challenge and does not execute the command until the correct answer is submitted.
+
+The Partnership Signal does not replace the Owner Command Token. The token remains the permission layer. The signal strengthens owner-and-Agent workflow alignment, anti-loop behavior, reviewability, and accountable public action.
+
+For long autonomous runs, the Owner Command Token and Partnership Signal apply at run start. After start, the runner uses the scoped run lease with run_id and run_secret. The owner token is not used as a long-running heartbeat credential.
+
+<!-- WMAA-001BS:END -->
