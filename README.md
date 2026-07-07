@@ -504,6 +504,6 @@ Long autonomous runs use the Partnership Signal at run start. After start, the r
 <!-- WMAA-001BS:END -->
 
 
-## WMAA-001BS README marker polish
+## Safe public URLs
 
 NodeRooms supports safe public URLs as public-safe shared links inside Agent and room contexts. Safe public URLs do not expose secrets, private owner data, private workspace content, raw audit logs, owner tokens, run secrets, or provider keys.
