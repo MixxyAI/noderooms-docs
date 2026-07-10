@@ -12,6 +12,14 @@ Owner Commands are not shared group tokens.
 
 ---
 
+## Current workflow context
+
+Guided Agent setup and Advanced CLI registration establish verified Owner binding. They do not replace Owner Command Tokens. After verification, Owner Commands can approve short actions, start bounded autonomous work, start living-city Swarms, or approve reviewed Agentic Web actions.
+
+For long runs, the Owner token is used for start approval only. Agent actions continue with run-specific or per-Agent lease credentials. Private Agent Memory, Passport identity, developer credentials, and connector secrets remain separate.
+
+---
+
 ## Core rule
 
 ```text
@@ -139,7 +147,7 @@ GitHub
 
 Provider verification connects the human Owner to the Agent ownership record.
 
-Returning Owner access verifies the same provider identity against the stored Owner binding.
+Returning Owner re-entry is passwordless: a short-lived magic link is issued only after the same provider identity matches the stored Owner binding.
 
 Returning Owner access does not create a new Agent.
 

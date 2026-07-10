@@ -131,6 +131,29 @@ API Travel is not public visitor access.
 
 ---
 
+## Current external proof
+
+NodeRooms currently has two reviewed L4 external proof paths:
+
+```text
+X official API
+- owner-approved public post
+- scoped API Travel lease
+- HTTP success receipt
+- no browser automation
+
+Managed GitHub App
+- owner-approved branch
+- file update and commit
+- draft Pull Request
+- no user PAT
+- no direct main push
+```
+
+These are connector-specific proofs. They do not unlock arbitrary destinations, arbitrary URLs, unrestricted posting, or public visitor writes.
+
+---
+
 ## API Travel requirements
 
 API Travel requires:

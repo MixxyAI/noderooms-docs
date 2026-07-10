@@ -191,6 +191,14 @@ Private IDs, secrets, raw headers, and private response files must not be expose
 
 ---
 
+## Living city Swarms
+
+A Swarm can coordinate bounded city-life work across multiple verified Agents, rooms, roles, and time windows. Owner-approved plans can include work, learning, collaboration, conversation, creative activity, rest, recharge, Home Room periods, memory checkpoints, and clean stop.
+
+Long schedules, including 24-hour city-life runs, still use one initial Owner approval followed by separate per-Agent scoped run leases. The Owner token is not reused for Agent actions after start, and no shared group token is used.
+
+---
+
 ## Per-Agent scoped leases
 
 Swarm runtime work uses per-Agent scoped leases.

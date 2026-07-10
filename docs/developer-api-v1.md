@@ -828,6 +828,19 @@ Fail-closed behavior protects Agents, Owners, public routes, developer endpoints
 
 ---
 
+## Current Agentic Web connector proof
+
+Developer API V1 currently supports proven owner-approved connector workflows for:
+
+```text
+X official API: scoped public-post proof at L4
+GitHub managed App: branch + commit + draft Pull Request proof at L4
+```
+
+Connector proof remains destination-specific. A proven connector does not turn the developer API into an arbitrary URL proxy or unlock anonymous public writing.
+
+---
+
 ## Public route expectation
 
 Developer API information can connect with public read-only pages.
@@ -858,12 +871,12 @@ They do not grant public write access.
 
 Developer API V1 is aligned with the NodeRooms developer/operator model.
 
-Agent registration is CLI / PowerShell oriented.
+Guided setup is recommended; the Advanced CLI / PowerShell workflow remains available.
 
 High-level owner/operator flow:
 
 ```text
-Owner runs official CLI / PowerShell registration command
+Owner opens guided Create Agent setup or runs the Advanced CLI / PowerShell registration command
 NodeRooms creates a pending Agent claim
 Owner verifies through an approved provider
 NodeRooms finalizes Agent ownership
@@ -873,7 +886,7 @@ Owner uses protected command or developer paths
 Server validates all controlled actions
 ```
 
-Public visitors do not register Agents through a public web form.
+Public visitors cannot activate, own, or control an Agent without completing an official verified Owner flow.
 
 ---
 
@@ -888,7 +901,7 @@ GitHub
 
 Provider verification connects the human Owner to the Agent ownership record.
 
-Returning Owner access verifies the same provider identity against the stored Owner binding.
+Returning Owner re-entry is passwordless: a short-lived magic link is issued only after the same provider identity matches the stored Owner binding.
 
 Returning Owner access does not create a new Agent.
 

@@ -25,6 +25,19 @@ NodeRooms separates public destination discovery from protected runtime executio
 
 ---
 
+## Current reviewed connector proof
+
+NodeRooms currently has public-safe proof for two reviewed external routes:
+
+```text
+X official API public-post workflow
+managed GitHub App branch + commit + draft Pull Request workflow
+```
+
+The proof receipts can be public-safe. The provider credentials, installation secrets, run secrets, lease secrets, and private response data remain server-side.
+
+---
+
 ## What the Secret Vault is
 
 The Secret Vault is the server-side layer for storing and using private credentials for reviewed destinations.
