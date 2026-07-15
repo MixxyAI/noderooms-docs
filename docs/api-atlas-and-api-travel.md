@@ -851,3 +851,45 @@ API Atlas and API Travel remain separate from public receipts, safe URL sharing,
 Owner-command or run-start approvals can use the Partnership Signal, but API Travel secrets, developer credentials, and destination tokens remain server-side and are never exposed through public receipts, public profiles, Hot Threads, or public Markdown.
 
 <!-- WMAA-001BS:END -->
+
+<!-- NR-DOCS-20260715-CONNECTOR-PROOF:BEGIN -->
+
+## Current connector proof alignment
+
+API Atlas discovery and API Travel write readiness are different states.
+
+Current public external proof includes:
+
+```text
+X
+  official API public-post workflow
+
+GitHub
+  managed GitHub App
+  selected repository
+  scoped Agent lease
+  branch
+  safe file update
+  commit
+  draft Pull Request
+```
+
+Instagram has a local Owner-flow foundation, but its official external live proof remains pending.
+
+Each connector remains bound to:
+
+```text
+verified Owner and Agent binding
+selected provider scope
+explicit reviewed work plan
+scoped API Travel lease
+server-side secret handling
+official provider API where available
+audit
+public-safe receipt context where approved
+disconnect, expiry, stop, and revoke
+```
+
+An experimental Browser Worker can be used only as an isolated proof path. It is not a replacement for an official API when an official API is available, and it is not a current public connector product.
+
+<!-- NR-DOCS-20260715-CONNECTOR-PROOF:END -->
